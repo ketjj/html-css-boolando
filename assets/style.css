@@ -5,29 +5,95 @@
 }
 
 body {
-  width: 45%;
+  width: 48%;
   min-width: 20%;
   max-width: 120%;
+  padding-top: 15px;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* UTILITIES */
+
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
-
 }
+
+.heart::after {
+  content: '\2665';
+  cursor: pointer;
+}
+
+
+  /* MAIN */
+
 .raw {
   margin-bottom: 80px;
   background-color: blue;
 }
 
+/* PHOTOES */
+
 .photo {
   position: relative;
   width: 31%;
-  height: 320px;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-left: 10px;
   float: left;
   display: inline-block;
-  margin-left: 2%;
+  background-size: cover;
+  background-position: center;
   background-color: red;
-
 }
+
+/* SQUARES */
+
+.little.white {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.little.red {
+  position: absolute;
+  top: 300px;
+  bottom: 0px;
+  width: 20px;
+  height: 12px;
+  background-color: #eb0037;
+  text-align: center;
+}
+
+.wh-1{
+  display: block;
+  color: white;
+  font-size: 7px;
+  padding: 1px 3px;
+  line-height: 12px;
+}
+
+.little.green {
+  position: absolute;
+  top: 300px;
+  left: 23px;
+  width: 44px;
+  height: 12px;
+  background-color: #00875a;
+  text-align: center;
+}
+
+
+.heart {
+  line-height: 20px;
+  font-size: small;
+  color: black;
+}
+
+/* TEXT UNDER PHOTO */
