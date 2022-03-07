@@ -49,6 +49,18 @@ body {
   background-position: center;
 }
 
+.right.photo .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.right.photo:hover .hoverImg {
+  display: block;
+}
+
+
 
 /* SQUARES */
 
@@ -88,6 +100,9 @@ body {
   height: 12px;
   background-color: #00875a;
   text-align: center;
+}
+.low-left.photo .little.green{
+  left: 0px; 
 }
 
 .heart {
