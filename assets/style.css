@@ -24,17 +24,13 @@ body {
   /* MAIN */
 
 .container {
-  width: 48%;
+  width: 52%;
   min-width: 20%;
   max-width: 120%;
   padding-top: 15px;
   margin: 0 auto;
 }
 
-.raw {
-  margin-bottom: 80px;
-  background-color: blue;
-}
 
 /* PHOTOES */
 
@@ -62,24 +58,29 @@ body {
 
 
 
+
 /* SQUARES */
 
-.little.white {
+.heart {
   position: absolute;
   top: 10px;
   right: 0px;
   width: 20px;
   height: 20px;
   background-color: white;
+  line-height: 20px;
+  font-size: small;
+  color: black;
   text-align: center;
 }
 
-.little.red {
+.percent {
   position: absolute;
   top: 300px;
   bottom: 0px;
   width: 20px;
   height: 12px;
+  padding: 5px;
   background-color: #eb0037;
   text-align: center;
 }
@@ -92,7 +93,7 @@ body {
   line-height: 12px;
 }
 
-.little.green {
+.describe {
   position: absolute;
   top: 300px;
   left: 23px;
@@ -101,15 +102,11 @@ body {
   background-color: #00875a;
   text-align: center;
 }
-.low-left.photo .little.green{
+
+.low-left.photo .describe{
   left: 0px; 
 }
 
-.heart {
-  line-height: 20px;
-  font-size: small;
-  color: black;
-}
 
 /* TEXT UNDER PHOTO */
 .description {
@@ -130,16 +127,7 @@ body {
   color:red;
   font-weight: bolder;
 }
-.before-d {
-  font-size: 8px;
-  text-decoration: line-through;
-}
-.discount::after {
-  content: '\20AC';
-  color: red;
-}
 
-.before-d::after {
-  content: '\20AC';
-  color: black
+.before-d {
+  color: black;
 }
